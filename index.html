@@ -11,133 +11,198 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <button class="togglemode" onclick="toggleWhiteMode()">Mode</button>
   <header>
     <h2 class="fs"></h2>
     <nav>
+        <a class="togglemode darkerText" onclick="toggleWhiteMode()">Dark</button>
         <a class="darkerText" href="https://github.com/Multydelivery" target="_blank">Github</a>
         <a class="darkerText" href="https://www.linkedin.com/in/felipe-sanz-b4b5b630b/" target="_blank">LinkedIn</a>
     </nav>
   </header>
   
   <main>
-    <section>
-
-    <div class="nameContainer">
-
-    <h1>Felipe Sanz</h1>
-    <p class="darkerText">Software Developer. I write code and build projects.</p>
-    </div>
-    <div class="statsContainer">
-        <div class="imgContainer">
-             <img  src="public/new portfolio pic.jpeg" alt="profile picture"> 
+    <section class="aboutMeContainer">
+        <div class="nameContainer">
+            <h1>Felipe Sanz</h1>
+            <p class="darkerText">Software Developer. I write code and build projects.</p>
         </div>
-        <div class="stats darkerText">
-            <div>
-                <div>
-                <i class="fa-solid fa-star"></i>
-                </div>
-                <p>11 github repositories</p>
+    
+        <div class="statsContainer">
+            <div class="imgContainer">
+                <img src="public/new portfolio pic.jpeg" alt="profile picture">
             </div>
-            <div>
-                <div>
-                <i class="fa-brands fa-github"></i>
+            <div class="stats darkerText">
+                <div class="statItem">
+                    <i class="fa-solid fa-star"></i>
+                    <p><strong>22</strong> GitHub Repositories</p>
                 </div>
-                <p>Followers</p>
-            </div>
-            <div>
-                <div>
-                <i class="fa-solid fa-arrow-trend-up"></i>
+                <div class="statItem">
+                    <i class="fa-brands fa-github"></i>
+                    <p><strong>2+</strong> Followers</p>
                 </div>
-                <p>Commits this year</p>
+                <div class="statItem">
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <p><strong>50+</strong> Commits This Year</p>
+                </div>
             </div>
         </div>
-    </div>
-    <p class="aboutMe">Hi, I'm 
-        <span>Felipe Sanz</span>, a software developer based in North Jersey, USA. I specialize in building and designing exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at <span>100 Devs</span>.</p>
-    </p>
-    <div>
-        <a href="mailto:oscarsanz1717@gmail.com" class="outreach darkerText">
-            <i class="fa-solid fa-arrow-right"></i>
-            <p class="email">Email me</p>
-        </a>
-    </div>
+    
+        <p class="aboutMeText">
+            Hi, I'm <span>Felipe Sanz</span>, a software developer based in North Jersey, USA. I specialize in building and designing exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at <span>100 Devs</span>.
+        </p>
+    
+        <div class="emailContainer">
+            <a href="mailto:oscarsanz1717@gmail.com" class="outreach darkerText">
+                <i class="fa-solid fa-envelope"></i> Email Me
+            </a>
+        </div>
     </section>
+    
     <section class="projectContainer">
-        <p class="darkerText headerText lp">Latest Projects</p>
-        <div class="projectItem">
-            <div>
-                <p class="darkerText">Sep 01, 2024</p>
-                <p>The Felipe Enormous Gym-Workout App is designed to be your go-to fitness partner, offering the tools and support you need to reach your workout goals. Experience a new level of fitness management and start your journey to a healthier, stronger you today.</p>
-                <div class="linkContainer">
-                    <a href="https://github.com/Multydelivery/gym-workouts" target="_blank" class="linkItem">
-                    <div>
-                    <i class="fa-brands fa-github"></i>
+        <h2 class="darkerText headerText lp">Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="public/FELIPE-ENOURMOUS.png" alt="Felipe Enormous Gym App">
+                <div class="project-details">
+                    <h3>Felipe Enormous Gym App</h3>
+                    <p>The Felipe Enormous Gym-Workout App is designed to be your go-to fitness partner, offering the tools and support you need to reach your workout goals.</p>
+                    <div class="linkContainer">
+                        <a href="https://github.com/Multydelivery/gym-workouts" target="_blank" class="linkItem">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href="https://gym-workouts-time.netlify.app/" target="_blank" class="linkItem">
+                            <i class="fa-solid fa-bolt"></i> Live Demo
+                        </a>
                     </div>
-                    <p>Github</p>
-                    </a>
-                    <a href="https://gym-workouts-time.netlify.app/" target="_blank" class="linkItem">
-                    <div>
-                         <i class="fa-solid fa-bolt"></i>
-                    </div>
-                    <p>Live</p>
-                    </a>
                 </div>
             </div>
-            <div>
-                <img src="public/FELIPE-ENOURMOUS.png" alt="felipenormous-pic">
-            </div>
-
-        </div>
-        <div class="projectItem">
-            <div>
-                <p class="darkerText">Sep 5, 2024</p>
-                <p>Discover the wonders of the cosmos with the APOD app, your gateway to NASA's Astronomy Picture of the Day. Every day, we bring you a stunning new image or video from the farthest reaches of space, accompanied by a comprehensive explanation that sheds light on the science and beauty behind the cosmos.</p>
-                <div class="linkContainer">
-                    <a href="https://github.com/Multydelivery/nasa-day-photo" target="_blank" class="linkItem">
-                    <div>
-                    <i class="fa-brands fa-github"></i>
+    
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="public/APOD Nasa.png" alt="APOD NASA App">
+                <div class="project-details">
+                    <h3>APOD NASA App</h3>
+                    <p>Discover the wonders of the cosmos with the APOD app, your gateway to NASA's Astronomy Picture of the Day.</p>
+                    <div class="linkContainer">
+                        <a href="https://github.com/Multydelivery/nasa-day-photo" target="_blank" class="linkItem">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href="https://nasa-pic-days.netlify.app/" target="_blank" class="linkItem">
+                            <i class="fa-solid fa-bolt"></i> Live Demo
+                        </a>
                     </div>
-                    <p>Github</p>
-                    </a>
-                    <a href="https://nasa-pic-days.netlify.app/" target="_blank" class="linkItem">
-                    <div>
-                         <i class="fa-solid fa-bolt"></i>
-                    </div>
-                    <p>Live</p>
-                    </a>
                 </div>
             </div>
-            <div>
-                <img src="public/APOD Nasa.png" alt="nasa-pic">
-            </div>
-
-        </div>
-        <div class="projectItem">
-            <div>
-                <p class="darkerText">Sep 10, 2024</p>
-                <p>HVAC project scheduling and quote feature simplifies planning and budgeting for installations and maintenance. Users can easily input project details and generate accurate, customized quotes in real-time. The intuitive scheduling tool helps define milestones and ensures deadlines are met, enhancing communication and transparency. This streamlined approach improves project management and helps customers make informed decisions.</p>
-                <div class="linkContainer">
-                    <a href="https://github.com/Multydelivery/HVAC_Site2_demo" target="_blank" class="linkItem">
-                    <div>
-                    <i class="fa-brands fa-github"></i>
+    
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="public/Cooler Than Your HVAC.png" alt="HVAC Project Scheduler">
+                <div class="project-details">
+                    <h3>HVAC Project Scheduler</h3>
+                    <p>Plan and budget for HVAC installations and maintenance with customized quotes and streamlined scheduling tools.</p>
+                    <div class="linkContainer">
+                        <a href="https://github.com/Multydelivery/HVAC_Site2_demo" target="_blank" class="linkItem">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href="https://hvacsite2demo-c24d7c962450.herokuapp.com/" target="_blank" class="linkItem">
+                            <i class="fa-solid fa-bolt"></i> Live Demo
+                        </a>
                     </div>
-                    <p>Github</p>
-                    </a>
-                    <a href="https://hvacsite2demo-c24d7c962450.herokuapp.com/" target="_blank"  class="linkItem">
-                    <div>
-                         <i class="fa-solid fa-bolt"></i>
-                    </div>
-                    <p>Live</p>
-                    </a>
                 </div>
             </div>
-            <div>
-                <img src="public/Cooler Than Your HVAC.png" alt="todo-list">
+    
+            <!-- Project 4 -->
+            <div class="project-card">
+                <img src="public/pixel-plate-screenshot.png" alt="Another HVAC Project">
+                <div class="project-details">
+                    <h3>Pixel & Plate</h3>
+                    <p>Take your digital empire to a total pro portal website with all your services and skills to other level.</p>
+                    <div class="linkContainer">
+                        <a href="https://github.com/Multydelivery/pix.elplate" target="_blank" class="linkItem">
+                            <i class="fa-brands fa-github"></i> Code
+                        </a>
+                        <a href="https://pixel-plate.netlify.app/" target="_blank" class="linkItem">
+                            <i class="fa-solid fa-bolt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
             </div>
-
         </div>
     </section>
+    <!-- Skills -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <i class="fa-brands fa-js-square"></i>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-react"></i>
+                <p>React</p>
+            </div>
+            <div class="skill-item">
+                <i class="fa-brands fa-node"></i>
+                <p>Node.js</p>
+            </div>
+            <!-- Add more skills -->
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <!-- modify this form HTML and place wherever you want your form -->
+<form
+action="https://formspree.io/f/movqkpad"
+method="POST"
+>
+<label>
+  Your email:
+  <input type="email" name="email">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+<!-- your other form fields go here -->
+<button type="submit">Send</button>
+</form>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- <div class="footer-about">
+                <h3>Felipe Sanz</h3>
+                <p>Software Developer. Building accessible, human-centered digital experiences.</p>
+            </div> -->
+    
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#aboutMeContainer">About Me</a></li>
+                    <li><a href="#projectContainer">Projects</a></li>
+                    <li><a href="mailto:oscarsanz1717@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-social">
+                <h4>Follow Me</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/Multydelivery" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/felipe-sanz-b4b5b630b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Felipe Sanz. Built with ❤️ and passion.</p>
+        </div>
+    </footer>
+    
+     
+    
+    
   </main>
 <script src="script.js" ></script>
 </body>
