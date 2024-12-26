@@ -1,209 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe Sanz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <header>
-    <h2 class="fs"></h2>
-    <nav>
-        <a class="togglemode darkerText" onclick="toggleWhiteMode()">Dark</button>
-        <a class="darkerText" href="https://github.com/Multydelivery" target="_blank">Github</a>
-        <a class="darkerText" href="https://www.linkedin.com/in/felipe-sanz-b4b5b630b/" target="_blank">LinkedIn</a>
-    </nav>
-  </header>
-  
-  <main>
-    <section class="aboutMeContainer" id="aboutMeContainer">
-        <div class="nameContainer">
-            <h1>Felipe Sanz</h1>
-            <p class="darkerText">Software Developer. I write code and build projects.</p>
-        </div>
-    
-        <div class="statsContainer">
-            <div class="imgContainer">
-                <img src="public/new portfolio pic.jpeg" alt="profile picture">
+    <header>
+        <h2 class="fs"></h2>
+        <nav>
+            <a class="togglemode darkerText" onclick="toggleWhiteMode()">Dark</button>
+                <a class="darkerText" href="https://github.com/Multydelivery" target="_blank">Github</a>
+                <a class="darkerText" href="https://www.linkedin.com/in/felipe-sanz-b4b5b630b/"
+                    target="_blank">LinkedIn</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="aboutMeContainer" id="aboutMeContainer">
+            <div class="nameContainer">
+                <h1>Felipe Sanz</h1>
+                <p class="darkerText">Software Developer. I write code and build projects.</p>
             </div>
-            <div class="stats darkerText">
-                <div class="statItem">
-                    <i class="fa-solid fa-star"></i>
-                    <p><strong>22</strong> GitHub Repositories</p>
+
+            <div class="statsContainer">
+                <div class="imgContainer">
+                    <img src="public/new portfolio pic.jpeg" alt="profile picture">
                 </div>
-                <div class="statItem">
+                <div class="stats darkerText">
+                    <div class="statItem">
+                        <i class="fa-solid fa-star"></i>
+                        <p><strong>22</strong> GitHub Repositories</p>
+                    </div>
+                    <div class="statItem">
+                        <i class="fa-brands fa-github"></i>
+                        <p><strong>2+</strong> Followers</p>
+                    </div>
+                    <div class="statItem">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <p><strong>50+</strong> Commits This Year</p>
+                    </div>
+                </div>
+            </div>
+
+            <p class="aboutMeText">
+                Hi, I'm <span>Felipe Sanz</span>, a software developer based in North Jersey, USA. I specialize in
+                building and designing exceptional digital experiences. Currently, I'm focused on building accessible,
+                human-centered products at <span>100 Devs</span>.
+            </p>
+
+            <div class="emailContainer">
+                <a href="#contact" class="outreach darkerText">
+                    <i class="fa-solid fa-envelope"></i> Email Me
+                </a>
+            </div>
+        </section>
+
+        <section class="projectContainer py-5 bg-light" id="projectContainer">
+            <div class="container">
+                <h2 class="text-center fw-bold mb-5 darkerText headerText lp">Projects</h2>
+                <div class="row gy-5 gx-4">
+                    <!-- Project 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card shadow-lg rounded overflow-hidden bg-white">
+                            <img src="public/FELIPE-ENOURMOUS.png" alt="Felipe Enormous Gym App" class="img-fluid">
+                            <div class="project-details p-4 text-center">
+                                <h3 class="fw-bold text-primary mb-3">Felipe Enormous Gym App</h3>
+                                <p class="text-muted mb-4">
+                                    The Felipe Enormous Gym-Workout App is designed to be your go-to fitness partner, offering the tools and support you need to reach your workout goals.
+                                </p>
+                                <div class="linkContainer d-flex justify-content-center gap-3">
+                                    <a href="https://github.com/Multydelivery/gym-workouts" target="_blank" class="btn btn-outline-dark d-flex align-items-center">
+                                        <i class="fa-brands fa-github me-2">CODE</i>
+                                    </a>
+                                    <a href="https://gym-workouts-time.netlify.app/" target="_blank" class="btn btn-primary d-flex align-items-center">
+                                        <i class="fa-solid fa-bolt me-2">LIVE</i>
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Project 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card shadow-lg rounded overflow-hidden bg-white">
+                            <img src="public/APOD Nasa.png" alt="APOD NASA App" class="img-fluid">
+                            <div class="project-details p-4 text-center">
+                                <h3 class="fw-bold text-primary mb-3">APOD NASA App</h3>
+                                <p class="text-muted mb-4">
+                                    Discover the wonders of the cosmos with the APOD app, your gateway to NASA's Astronomy Picture of the Day.
+                                </p>
+                                <div class="linkContainer d-flex justify-content-center gap-3">
+                                    <a href="https://github.com/Multydelivery/nasa-day-photo" target="_blank" class="btn btn-outline-dark d-flex align-items-center">
+                                        <i class="fa-brands fa-github me-2">CODE</i>
+                                    </a>
+                                    <a href="https://nasa-pic-days.netlify.app/" target="_blank" class="btn btn-outline-primary d-flex align-items-center">
+                                        <i class="fa-solid fa-bolt me-2">LIVE</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Project 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card shadow-lg rounded overflow-hidden bg-white">
+                            <img src="hvacsolutionsscreenshot.png" alt="HVAC Project Scheduler" class="img-fluid">
+                            <div class="project-details p-4 text-center">
+                                <h3 class="fw-bold text-primary mb-3">HVAC</h3>
+                                <p class="text-muted mb-4">
+                                    Plan and budget for HVAC installations and maintenance with customized quotes and streamlined scheduling tools.
+                                </p>
+                                <div class="linkContainer d-flex justify-content-center gap-3">
+                                    <a href="https://github.com/Multydelivery/HVAC_Site2_demo" target="_blank" class="btn btn-outline-dark d-flex align-items-center">
+                                        <i class="fa-brands fa-github me-2">CODE</i>
+                                    </a>
+                                    <a href="https://hvacsite2demo-c24d7c962450.herokuapp.com/" target="_blank" class="btn btn-outline-primary d-flex align-items-center">
+                                        <i class="fa-solid fa-bolt me-2">LIVE</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Project 4 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card shadow-lg rounded overflow-hidden bg-white">
+                            <img src="public/pixel-plate-screenshot.png" alt="Pixel & Plate" class="img-fluid">
+                            <div class="project-details p-4 text-center">
+                                <h3 class="fw-bold text-primary mb-3">Pixel & Plate</h3>
+                                <p class="text-muted mb-4">
+                                    Elevate your digital presence to a professional-grade portal, showcasing all your services and skills to the next level.
+                                </p>
+                                <div class="linkContainer d-flex justify-content-center gap-3">
+                                    <a href="https://github.com/Multydelivery/pix.elplate" target="_blank" class="btn btn-outline-dark d-flex align-items-center">
+                                        <i class="fa-brands fa-github me-2">CODE</i>
+                                    </a>
+                                    <a href="https://pixel-plate.netlify.app/" target="_blank" class="btn btn-outline-primary d-flex align-items-center">
+                                        <i class="fa-solid fa-bolt me-2">LIVE</i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        <!-- Skills -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <p>Bootstrap</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-js-square"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-node"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-npm"></i>
+                    <p>NPM</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-react"></i>
+                    <p>React</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-mdb"></i>
+                    <p>MongoDB</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-database"></i>
+                    <p>SQL</p>
+                </div>
+                <div class="skill-item">
                     <i class="fa-brands fa-github"></i>
-                    <p><strong>2+</strong> Followers</p>
+                    <p>GitHub</p>
                 </div>
-                <div class="statItem">
-                    <i class="fa-solid fa-arrow-trend-up"></i>
-                    <p><strong>50+</strong> Commits This Year</p>
+                <div class="skill-item">
+                    <i class="fa-brands fa-git"></i>
+                    <p>Git</p>
                 </div>
-            </div>
-        </div>
-    
-        <p class="aboutMeText">
-            Hi, I'm <span>Felipe Sanz</span>, a software developer based in North Jersey, USA. I specialize in building and designing exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at <span>100 Devs</span>.
-        </p>
-    
-        <div class="emailContainer">
-            <a href="#contact" class="outreach darkerText">
-                <i class="fa-solid fa-envelope"></i> Email Me
-            </a>
-        </div>
-    </section>
-    
-    <section class="projectContainer" id="projectContainer">
-        <h2 class="darkerText headerText lp">Projects</h2>
-        <div class="projects-grid">
-            <!-- Project 1 -->
-            <div class="project-card">
-                <img src="public/FELIPE-ENOURMOUS.png" alt="Felipe Enormous Gym App">
-                <div class="project-details">
-                    <h3>Felipe Enormous Gym App</h3>
-                    <p>The Felipe Enormous Gym-Workout App is designed to be your go-to fitness partner, offering the tools and support you need to reach your workout goals.</p>
-                    <div class="linkContainer">
-                        <a href="https://github.com/Multydelivery/gym-workouts" target="_blank" class="linkItem">
-                            <i class="fa-brands fa-github"></i> Code
-                        </a>
-                        <a href="https://gym-workouts-time.netlify.app/" target="_blank" class="linkItem">
-                            <i class="fa-solid fa-bolt"></i> Live
-                        </a>
-                    </div>
+                <div class="skill-item">
+                    <i class="fa-brands fa-wordpress"></i>
+                    <p>WordPress</p>
                 </div>
+
+
+
+                <!-- Add more skills -->
             </div>
-    
-            <!-- Project 2 -->
-            <div class="project-card">
-                <img src="public/APOD Nasa.png" alt="APOD NASA App">
-                <div class="project-details">
-                    <h3>APOD NASA App</h3>
-                    <p>Discover the wonders of the cosmos with the APOD app, your gateway to NASA's Astronomy Picture of the Day.</p>
-                    <div class="linkContainer">
-                        <a href="https://github.com/Multydelivery/nasa-day-photo" target="_blank" class="linkItem">
-                            <i class="fa-brands fa-github"></i> Code
-                        </a>
-                        <a href="https://nasa-pic-days.netlify.app/" target="_blank" class="linkItem">
-                            <i class="fa-solid fa-bolt"></i> Live
-                        </a>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Project 3 -->
-            <div class="project-card">
-                <img src="public/Cooler Than Your HVAC.png" alt="HVAC Project Scheduler">
-                <div class="project-details">
-                    <h3>HVAC</h3>
-                    <p>Plan and budget for HVAC installations and maintenance with customized quotes and streamlined scheduling tools.</p>
-                    <div class="linkContainer">
-                        <a href="https://github.com/Multydelivery/HVAC_Site2_demo" target="_blank" class="linkItem">
-                            <i class="fa-brands fa-github"></i> Code
-                        </a>
-                        <a href="https://hvacsite2demo-c24d7c962450.herokuapp.com/" target="_blank" class="linkItem">
-                            <i class="fa-solid fa-bolt"></i> Live
-                        </a>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Project 4 -->
-            <div class="project-card">
-                <img src="public/pixel-plate-screenshot.png" alt="Another HVAC Project">
-                <div class="project-details">
-                    <h3>Pixel & Plate</h3>
-                    <p>Take your digital empire to a total pro portal website with all your services and skills to other level.</p>
-                    <div class="linkContainer">
-                        <a href="https://github.com/Multydelivery/pix.elplate" target="_blank" class="linkItem">
-                            <i class="fa-brands fa-github"></i> Code
-                        </a>
-                        <a href="https://pixel-plate.netlify.app/" target="_blank" class="linkItem">
-                            <i class="fa-solid fa-bolt"></i> Live
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Skills -->
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-item">
-                <i class="fa-brands fa-js-square"></i>
-                <p>JavaScript</p>
-            </div>
-            <div class="skill-item">
-                <i class="fa-brands fa-react"></i>
-                <p>React</p>
-            </div>
-            <div class="skill-item">
-                <i class="fa-brands fa-node"></i>
-                <p>Node.js</p>
-            </div>
-            <!-- Add more skills -->
-        </div>
-    </section>
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <!-- modify this form HTML and place wherever you want your form -->
-<form
-action="https://formspree.io/f/movqkpad"
-method="POST"
->
-<label>
-  Your email:
-  <input type="email" name="email">
-</label>
-<label>
-  Your message:
-  <textarea name="message"></textarea>
-</label>
-<!-- your other form fields go here -->
-<button type="submit">Send</button>
-</form>
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <!-- <div class="footer-about">
+        </section>
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form action="https://formspree.io/f/movqkpad" method="POST">
+                <label>
+                    Your email:
+                    <input type="email" name="email">
+                </label>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- <div class="footer-about">
                 <h3>Felipe Sanz</h3>
                 <p>Software Developer. Building accessible, human-centered digital experiences.</p>
             </div> -->
-    
-            <div class="footer-links">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#aboutMeContainer">About Me</a></li>
-                    <li><a href="#projectContainer">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-    
-            <div class="footer-social">
-                <h4>Follow Me</h4>
-                <div class="social-icons">
-                    <a href="https://github.com/Multydelivery" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/felipe-sanz-b4b5b630b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#aboutMeContainer">About Me</a></li>
+                        <li><a href="#projectContainer">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/Multydelivery" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/felipe-sanz-b4b5b630b/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>© 2024 Felipe Sanz. Built with ❤️ and passion.</p>
-        </div>
-    </footer>
-    
-     
-    
-    
-  </main>
-<script src="script.js" ></script>
+            <div class="footer-bottom">
+                <p>© 2024 Felipe Sanz. Built with ❤️ and passion.</p>
+            </div>
+        </footer>
+
+
+
+
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>

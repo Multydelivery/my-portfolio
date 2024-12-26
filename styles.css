@@ -218,17 +218,15 @@ nav a:hover {
 }
 
 .project-card {
-    background: var(--card-bg);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px var(--shadow);
-    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem; /* Adds additional spacing below each card */
 }
 
 .project-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px var(--shadow);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
 }
+
 
 .project-card img {
     width: 100%;
